@@ -29,8 +29,8 @@ c= int(input("ingrese c: "))
 d= (b**2)-(4*a*c)
 #aqui usamos condicional para hallar las x
 if d>0 :
-    print("x1: "+str(((-b)+(d**(1/2))/(2*a))))
-    print("x2: "+str(((-b)+(d**(1/2))/(2*a))))
+    print("x1: "+str(round(((-b)+(d**(1/2))/(2*a)))))
+    print("x2: "+str(round(((-b)-(d**(1/2))/(2*a)))))
 elif d==0 :
     print("x1 y x2 son iguales, y su valor es: "+str((-b)/(2*a)))
 elif d<0:
