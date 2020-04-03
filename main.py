@@ -32,8 +32,10 @@ if d>0 :
     print("x1: "+str(round((((b/-1)+d**(1/2))/(2*a)))))
     print("x2: "+str(round((((b/-1)-d**(1/2))/(2*a)))))
 elif d==0 :
-    print("x1 y x2 son iguales, y su valor es: "+str(round((-b)/(2*a))))
+    print("x1 y x2 son iguales, y su valor es: "+str(round((-b)/(2*a))))1
 elif d<0:
     print("i")
+#aqui no hay mas nnono
+    
     
     
